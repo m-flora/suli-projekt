@@ -1,0 +1,1 @@
+a jelenlegi gépeden levő verziót full töröld le és az utolsó innenit cloneozd vissza
