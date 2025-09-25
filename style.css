@@ -29,6 +29,7 @@ nav
 .nav_right
 {
     overflow: hidden;
+    margin-left: 20px;
 }
 .nav_right a
 {
@@ -37,4 +38,42 @@ nav
     font-weight: bold;
     float: left;
     font-size: 16px;
+    text-align: center;
+}
+.nav_drop
+{
+    float: left;
+    overflow: hidden;
+}
+
+/* Dropdown content (hidden by default) */
+.drop_cont {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.drop_cont a 
+{
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.drop_cont a:hover {
+    background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.nav_drop:hover .drop_cont {
+    display: block;
+    right: 10%;
 }
