@@ -1,0 +1,40 @@
+body
+{
+    background-color: #262626;
+    color: gainsboro;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav 
+{
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav0
+{
+/*   display: inline-block;*/
+}
+.nav_right li
+{
+    list-style-type: none;
+    padding-left: 0px;
+    float: left;
+    text-align: center;
+}
+.nav_left
+{
+    margin-left:10px ;
+}
+.nav_right
+{
+    overflow: hidden;
+}
+.nav_right a
+{
+    text-decoration: none;
+    color: gainsboro;
+    font-weight: bold;
+    float: left;
+    font-size: 16px;
+}
