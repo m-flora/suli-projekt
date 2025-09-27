@@ -5,13 +5,15 @@
 	box-sizing: border-box;
 	font-family: 'Poppins', monospace;
 }
-body 
-{
-	background-color: #b3b3b3;
-	min-height: 100vh;
+body {
+	background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+    background-color: #b3b3b3;
+	min-height: 100vh; 
 }
-.navbar 
-{
+.navbar {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -19,35 +21,29 @@ body
 	padding: 0 20px;
 	height: 70px;
 }
-.nav_left .logo 
-{
+.nav_left .logo {
 	color: gainsboro;
 	font-size: 1.5rem;
 }
-.nav_right .nav_menu 
-{
+.nav_right .nav_menu {
 	list-style: none;
 	display: flex;
 	gap: 10px;
 }
-.nav_item 
-{
+.nav_item {
 	position: relative;
 }
-.menu_link 
-{
+.menu_link {
 	display: block;
 	padding: 20px 25px;
 	color: gainsboro;
 	text-decoration: none;
 	font-size: 18px;
 }
-.menu_link:hover 
-{
+.menu_link:hover {
 	background: #2b2b2b;
 }
-.dropdown_menu 
-{
+.dropdown_menu {
 	list-style: none;
 	background: #525252;
 	position: absolute;
@@ -57,11 +53,31 @@ body
 	z-index: 999;
 	min-width: 200px;
 }
-.dropdown_item
-{
+.dropdown_item{
 	display: block;
 }
-.nav_item:hover .dropdown_menu
-{
+.nav_item:hover .dropdown_menu{
 	display: block;
+}
+.hero {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.overlay_box {
+background-color: rgba(0, 0, 0, 0.7);
+	color: white;
+	padding: 30px 40px;
+	border-radius: 40px;
+	text-align: left;
+	width: calc(100% - 80px);
+	height: calc(200vh - 80px);
+    margin: 40px auto;
+}
+footer {
+    display: flex;
+    background: #1a1a1a;
+    padding: 0 20px;
+	height: 200px;
 }
