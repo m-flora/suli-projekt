@@ -13,6 +13,7 @@ body {
     background-color: #b3b3b3;
 	min-height: 100vh; 
 }
+
 .navbar {
 	display: flex;
 	justify-content: space-between;
@@ -21,9 +22,17 @@ body {
 	padding: 0 20px;
 	height: 70px;
 }
-.nav_left .logo {
+.nav_left {
 	color: gainsboro;
-	font-size: 1.5rem;
+	font-weight: bold;
+	font-size: 40px;
+	align-items: center;
+	display: flex;
+	gap: 8px;
+}
+.nav_left img{
+	height: 48px;
+	width: 40px;
 }
 .nav_right .nav_menu {
 	list-style: none;
@@ -64,7 +73,6 @@ body {
 	justify-content: center;
 	align-items: center;
 }
-
 .overlay_box {
 background-color: rgba(0, 0, 0, 0.7);
 	color: white;
